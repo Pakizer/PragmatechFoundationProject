@@ -1,9 +1,41 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
 /* Header bolmesi  */
 
-/* header info bolmesi */
-.header-info{
-    
+.header-container{
+    width: 1350px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header navbar bolmesi */
+.header-navbar{
+border: 1px solid red;
+padding: 20px 0px;
+}
+.navbar-logo{
 }
 
+.navbar-logo img{
+    height: 60px;
+}
 
-/* header navbar bolmesi */
+.navbar-nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+
+.navbar-nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+    font-weight: 400;
+}
+.navbar-basket {
+    color: hotpink;
+}
