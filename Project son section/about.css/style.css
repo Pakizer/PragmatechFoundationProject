@@ -38,6 +38,10 @@ button{
 }
 
 .navbar-nav ul li{
+    list-style:none ;
+}
+
+.navbar-nav ul li a{
     list-style: none;
     padding: 0px 10px;
     font-weight: 400;
@@ -45,8 +49,13 @@ button{
     
 }
 
-.navbar-nav ul li:hover{
+.navbar-nav ul li a:hover{
     color: #a65f19;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 #about .row .col-6 h1{

@@ -18,6 +18,7 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
 button{
     border-radius: 40px;
     outline: none;
@@ -32,13 +33,18 @@ button{
 
 }
 
+.navbar-logo img{
+    margin: 0px 40px;
+    height: 100px;
+
+}
+
 .navbar-nav ul{
     margin: 40px ;
     padding: 0px;
     display: flex;
 
 }
-
 .navbar-nav ul li{
     list-style: none;
 }
@@ -60,48 +66,54 @@ button{
     color: black;
 }
 
-.store-view{
+#blog-page {
     margin: 38px 40px;
     height: 100%;
     background-color:#f0f0f0;
     padding: 30px 0px;
 }
+#blog-page .container{
+    width: 70%;
+}
 
-.store-view .store-item{
+#blog-page .container .row .col-12 h1{
+    text-align: left;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 1px 15px;
+}
+
+#blog-page .container .row .col-12 .search-icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#blog-page .blog-item{
     /* margin: 0px 30px; */
-    border: 5px solid white;
+    /* border: 5px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.store-view .store-item .title h1{
-    padding: 20px 72px ;
+#blog-page .col-4 .title h1{
+    padding: 80px 20px ; 
+    font-weight: 100;
+    background-color: white;
+    margin: initial;
 
 
 }
-.store-view .container .row .col-3{
-    padding: 50px;
+#blog-page .container .row .col-4{
+    padding: 15px;
 }
 
-.store-view .container .row .col-3 .store-item img{
+#blog-page .container .row .col-4 .blog-item img{
     width: 100%;
     object-fit: cover;
     cursor: pointer; 
 }
-
-.store-view .container .row .col-12{
-    text-align: center;
-    margin-top: 30px 0px;
-    font-size: 15px;
-
-}
-
-.store-view .container .row .col-3 .title{
-    background-color: white;
-    font-size: 6px;
-}
-
 
 /* footer style */
 
@@ -125,10 +137,3 @@ button{
 .row .col-3 .item .title{
     padding: 1px 15px;
 }
-
-.form-element input{
-    width: 60%;
-    padding: 15px 20px;
-    cursor: pointer;
-}
-

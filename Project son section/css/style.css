@@ -49,8 +49,11 @@ padding: 20px 0px;
     display: flex;
 
 }
-
 .navbar-nav ul li{
+    list-style:none ;
+}
+
+.navbar-nav ul li a{
     list-style: none;
     padding: 0px 10px;
     font-weight: 400;
@@ -58,10 +61,14 @@ padding: 20px 0px;
     
 }
 
-.navbar-nav ul li:hover{
+.navbar-nav ul li a:hover{
     color: #a65f19;
 }
 
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+}
 
 .header-icon i{
     margin: 0px 5px;
