@@ -49,6 +49,7 @@ padding: 20px 0px;
     display: flex;
 
 }
+
 .navbar-nav ul li{
     list-style:none ;
 }
@@ -311,6 +312,7 @@ padding: 20px 0px;
 
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
+    cursor: pointer;
 }
 
 

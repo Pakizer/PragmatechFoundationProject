@@ -91,6 +91,7 @@ button{
 
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
+    cursor: pointer;
 }
 
 
