@@ -1,0 +1,1 @@
+home,store,about,blog,pointsofsale,login sehifelerinin html css bitib,responsivlik hele bitmeyib.

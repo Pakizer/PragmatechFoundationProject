@@ -7,17 +7,17 @@ body{
 /* Header bolmesi  */
 
 .header-container{
-    
     margin: 0px auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container{
+.container {
     width: 90%;
     margin: 0 auto;
 }
+
 button{
     border-radius: 40px;
     outline: none;
@@ -43,6 +43,17 @@ padding: 20px 0px;
 
 }
 
+.navbar-nav ul li button{
+    overflow: hidden;
+    flex-shrink: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+
 .navbar-nav ul{
     margin: 40px ;
     padding: 0px;
@@ -56,7 +67,7 @@ padding: 20px 0px;
 
 .navbar-nav ul li a{
     list-style: none;
-    padding: 0px 10px;
+    padding: 0px 5px;
     font-weight: 400;
     cursor: pointer;
     
@@ -307,7 +318,12 @@ padding: 20px 0px;
     padding: 7px 12px;
     font-weight: 400;
     cursor: pointer;
+    
 }
+#footer .row .col-3 .footer-item ul li:hover{
+   color: #a65f19;
+}
+
 
 
 #footer .row .col-3 .footer-social-icons{
