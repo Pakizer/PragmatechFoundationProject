@@ -59,3 +59,20 @@ Bir məlumat növü bir kompilyator tərəfindən başqa bir məlumat tipinə ç
 Implicit type conversiton məcburetmə gizli şəkildə edilir. JavaScript səhv bir məlumat növündə işlədikdə, dəyəri doğru məlumat tipinə çevirməyə çalışacaqdır.
 
 Explicit type conversiton tip çevirmə kodda açıq şəkildə developer tərəfindən edilir. JavaScript, növ çevirmə üçün daxili metodlar təqdim edir.
+
+
+            JS
+ #about array
+
+- array.push - array sonuna yeni element elave edir
+- array.unshift - array evveline yeni element elave edir
+- array.pop -sonuncu elementi silir
+- array.shift -ilk elementi silir
+- array.indexof - secdiyimiz elementin sirasini gosterir
+- array.lentgh - arrayin uzunluğun gosterir
+
+
+
+JS practice
+
+Hereket eden qutu[https://codepen.io/pakizer/pen/abpmXPw]
