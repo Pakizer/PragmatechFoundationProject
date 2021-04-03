@@ -61,7 +61,8 @@ Implicit type conversiton məcburetmə gizli şəkildə edilir. JavaScript səhv
 Explicit type conversiton tip çevirmə kodda açıq şəkildə developer tərəfindən edilir. JavaScript, növ çevirmə üçün daxili metodlar təqdim edir.
 
 
-            JS
+start JS
+
  #about array
 
 - array.push - array sonuna yeni element elave edir
@@ -72,7 +73,24 @@ Explicit type conversiton tip çevirmə kodda açıq şəkildə developer tərə
 - array.lentgh - arrayin uzunluğun gosterir
 
 
+#about math objects
+
+- Math.max()
+- Math.min()
+- MAth.PI pi sayisi
+- Math.pow(4,3) menasi 4 usdu 3 cavab 64
+- Math.random() 0 ve 1 arasinda her hansi sayi cixarir
+- Math.round() yuvarlaqlasdirma  mes: Math.round(2.7); //returns 3
+- Math.sign() musbet ve ya menfi oldugun bildirir
+- Math.sqrt() kok alma
+- Math.abs() modul
+- Math.floor(1.6) asagi yvarlaqsdirir
+- Math.trunc() koku cixarir
+
 
 JS practice
 
 Hereket eden qutu[https://codepen.io/pakizer/pen/abpmXPw]
+slider [https://codepen.io/pen/]
+
+JS slider:
