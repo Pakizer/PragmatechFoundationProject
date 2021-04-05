@@ -91,6 +91,6 @@ start JS
 JS practice
 
 Hereket eden qutu[https://codepen.io/pakizer/pen/abpmXPw]
-slider [https://codepen.io/pen/]
+slider [https://codepen.io/pakizer/pen/YzNVEmv]
 
 JS slider:
