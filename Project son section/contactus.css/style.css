@@ -53,13 +53,15 @@ button{
     border-radius: 8px;
 
 }
+
 .txtb label{
     display: block;
     text-align: left;
-    color: #333;
+    color: black;
     text-transform: uppercase;
     font-size: 14px;
 }
+
 .txtb input, .txtb textarea{
     width: 100%;
     border: none;
@@ -68,6 +70,7 @@ button{
     font-size: 18px;
     margin-top: 6px;
 }
+
 .btn{
     display: inline-block;
     background-color: grey;
