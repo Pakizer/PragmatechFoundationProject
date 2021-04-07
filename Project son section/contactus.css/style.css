@@ -26,6 +26,26 @@ button{
     cursor: pointer;
 }
 
+.col-12 .close button {
+    position: fixed;
+    touch-action: manipulation;
+    top: 60px;
+    right: 60px;
+    background: none;
+    z-index: 3;
+    border: none;
+    cursor: pointer;
+}
+
+
+.col-12 button i{
+    width: 25px;
+    height: 25px;
+    stroke-width: 15;
+    cursor: pointer;
+    pointer-events: none;
+
+}
 .contactus{
     width: 85%;
     max-width: 600px;
