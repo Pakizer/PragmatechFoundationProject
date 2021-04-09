@@ -1,6 +1,7 @@
 .container{
     width: 100%;
     margin: 0 auto;
+    padding: 0px 25px;
 }
 
 .container-full{
@@ -11,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin: 45px;
+    padding: 25px;
 }
 
 .col-1{

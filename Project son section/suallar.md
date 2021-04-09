@@ -94,3 +94,58 @@ Hereket eden qutu[https://codepen.io/pakizer/pen/abpmXPw]
 slider [https://codepen.io/pakizer/pen/YzNVEmv]
 
 JS slider:
+
+
+SQL 
+Data types of SQL:
+String
+1.CHAR(size)- from 0 to 255
+2.VARCHAR(size)-from 0 to 65535
+3.BINARY(size)-Equal to CHAR(), but stores binary byte strings. 
+4.VARBINARY(size)-Equal to VARCHAR(), but stores binary byte strings.
+5.TINYBLOB-For BLOBs (Binary Large OBjects). Max length: 255 bytes.
+6.TINYTEXT-Holds a string with a maximum length of 255 characters.
+7.TEXT(size)-Holds a string with a maximum length of 65,535 bytes.
+8.BLOB(size)-	For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data
+9.MEDIUMTEXT-	Holds a string with a maximum length of 16,777,215 characters
+10.MEDIUMBLOB	-For BLOBs (Binary Large OBjects). Holds up to 16,777,215 bytes of data
+11.LONGTEXT-	Holds a string with a maximum length of 4,294,967,295 characters
+12.LONGBLOB-	For BLOBs (Binary Large OBjects). Holds up to 4,294,967,295 bytes of data
+
+NUMERIC
+1.BIT(size)-A bit-value type,from 1 to 64.The default value for size is 1.
+2.TINYINT(size)-A very small integer.
+3.BOOL-Zero is considered as false, nonzero values are considered as true.
+4.BOOLEAN-Equal to BOOL
+5.INT(size)-	A medium integer.
+6.INTEGER(size)	-Equal to INT(size)
+
+
+Date and Time Data Types
+1.DATE	-A date. Format: YYYY-MM-DD.
+2.DATETIME(fsp)-	A date and time combination. Format: YYYY-MM-DD hh:mm:ss.
+3.TIME(fsp)	A time. Format: hh:mm:ss
+4.YEAR-A year in four-digit format.
+
+SQL Server Data Types
+String Data Types:
+char(n)	
+varchar(n)	
+varchar(max)	
+text	
+nchar	
+nvarchar		 
+nvarchar(max)		 
+ntext	
+binary(n)		 
+varbinary
+varbinary(max)	 
+image
+
+Numeric Data Types
+
+bit		 
+tinyint	
+smallint	
+int	
+bigint	
