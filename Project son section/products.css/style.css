@@ -75,11 +75,13 @@ button{
 .navigations {
     box-sizing: border-box;
     list-style: none; 
-    margin-bottom: 60px;
+    margin-bottom: 35px;
     /* margin-top: 35px; */
-    margin: 70px;
+    
 
 }
+
+
 
 .navigations li{
     list-style: none;
@@ -103,3 +105,36 @@ button{
     color: gray;
     display: flex;
 }
+
+.prod-item img{
+    object-fit: cover;
+}
+
+.col-6 h4{
+    text-align: left;
+    padding: 1px 1px;
+    font-weight: 300;
+}
+
+#product .col-6 h1{
+    font-weight: 300px;
+}
+
+.contact .form{
+    text-align: left;
+}
+.contact .form-element{
+    margin: 10px;
+
+}
+
+.contact .form-element input{
+    width: 60%;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.contact .form-element input{
+    background-color: #caa076;
+ }
+ 
