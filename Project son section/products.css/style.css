@@ -81,6 +81,13 @@ button{
 
 }
 
+#product .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: 0px 250px;
+    
+}
 
 
 .navigations li{
@@ -116,13 +123,12 @@ button{
     font-weight: 300;
 }
 
-#product .col-6 h1{
-    font-weight: 300px;
+#product .col-6 h1, h5,h2 {
+    font-weight: 300;
 }
 
-.contact .form{
-    text-align: left;
-}
+    
+
 .contact .form-element{
     margin: 10px;
 
@@ -134,7 +140,55 @@ button{
     cursor: pointer;
 }
 
-.contact .form-element input{
+#product .contact .form-element input{
     background-color: #caa076;
+
  }
+
+.ltr ul li{
+    list-style: none;
+    text-align: inherit;
+}
  
+.ltr ul li i{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+
+/* footer style */
+
+#footer .row .col-3 .footer-item ul li{
+    list-style: none;
+    padding: 7px 12px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+#footer .row .col-3 .footer-item ul li:hover{
+   color: #a65f19;
+}
+
+
+
+#footer .row .col-3 .footer-social-icons{
+    padding: 0px 54px;
+    cursor: pointer;
+}
+
+
+.form-element{
+    margin: 15px;
+}
+
+.row .col-3 .item .title{
+    padding: 1px 15px;
+}
+
+.form-element input{
+    width: 60%;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
