@@ -109,6 +109,25 @@ button{
     object-fit: cover;
     cursor: pointer; 
 }
+.store-view .container .row .col-3 .store-item .img-frame .img-overlay {
+    width: 100%;
+    height: 100%;
+position: absolute;
+background-color: rgba(0, 0, 0, .3);
+top: 0px;
+left: 0px;
+z-index: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #a65f19;
+font-size: 13px;
+transform: scale(0.5);
+opacity: 0;
+transition: all .3s ease;
+cursor: pointer;
+}
+
 
 .store-view .container .row .col-12{
     text-align: center;
