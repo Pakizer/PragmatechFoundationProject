@@ -149,3 +149,58 @@ tinyint
 smallint	
 int	
 bigint	
+
+                         #Python practice
+ The sequence required to learn all programming languages
+
+ 1.Veriable- bir kompüter proqramında istinad və manipulyasiya ediləcək məlumatları saxlamaq üçün istifadə olunur.Yeganə məqsədi məlumatları yaddaşda etiketləmək və saxlamaqdır.
+
+ 2.Data types-bir dəyişənin hansı dəyər növünə malik olduğunu və səhv etmədən ona hansı növ riyazi, əlaqəli və ya məntiqi əməliyyat tətbiq edilə biləcəyini göstərən bir təsnifatdır. 
+
+ 3.Operators-kompüter proqramında ümumiyyətlə  hərəkəti və ya prosesi təmsil edən  simvoldur. Bu simvollar riyaziyyat və məntiqdən uyğunlaşdırıldı. Operator müəyyən dəyəri və ya operanı idarə edə bilir.
+
+ 4.Conditions-proqramçı tərəfindən yaradılan, proqramdakı hərəkətləri qiymətləndirən və doğru və ya yalan olduğunu qiymətləndirən ifadələrdir. If-then-else ifadəsi ifadənin qiymətləndirilməsinə əsaslanan şərti icraya imkan verir.
+
+ 5.Function-hərəkəti yerinə yetirmək üçün istifadə olunan, mütəşəkkil, yenidən istifadə edilə bilən  kod blokudur. Funksiyalar tətbiqiniz üçün daha yaxşı modulluq və yüksək dərəcədə kodun təkrar istifadəsini təmin edir. Print () və main () kimi müxtəlif funksiyaları artıq görmüsünüz.
+
+ 6.Data structure-kompüter proqramında məlumatların səmərəli saxlanması, əldə edilməsi və işlənməsi üçün əvvəlcədən təyin olunmuş formatıdır. Bəzi məlumat strukturları proqramlaşdırma dilinin daxili komponentidir, digərləri isə strukturdan istifadə edilməzdən əvvəl kitabxana və ya modul daxil edilməsini tələb edə bilər.
+
+ 7.Loops-kodun bir hissəsini istədiyiniz proses tamamlanana qədər müəyyən sayda təkrarlayan bir proqramlaşdırma elementidir. Təkrarlanan tapşırıqlar proqramlaşdırmada tez-tez rast gəlinir və dövrlər vaxta qənaət etmək və səhvləri minimuma endirmək üçün vacibdir.
+
+        #Interpreter diller
+
+ Interpreter diller -kodu hədəf maşın tərəfindən birbaşa tərcümə edilmir. Bunun əvəzinə fərqli bir proqram, yəni tərcüməçi, kodu oxuyur və icra edir
+
+ex:
+ 1.Java script- can be considered both a compiled and an interpreted language because its source code is first compiled into a binary byte-code. This byte-code runs on the Java Virtual Machine (JVM), which is usually a software-based interpreter.
+ 2.Python- is an interpreted high-level general-purpose programming language.
+ 3.PHP.
+ 4.Ruby.
+
+        #Compiler diller
+
+ Compiler diller-Yüksək səviyyəli bir dildə yazılmış mənbə kodunu (məsələn, C ++) rəqəmsal kompüterin CPU tərəfindən başa düşülə bilən maşın dilindəki təlimatlara çevirən (tərtib edən) kompüter proqramı.Compiler diller error-checking və digər qabiliyyətləri olan çox böyük proqramlardır.      
+
+ ex:C,C++,Go,Fortran,Pascal
+
+       #High level diller
+
+HIGH LEVEL- Yüksək səviyyəli bir dil kompüter proqramlaşdırmasını sadələşdirmək üçün hazırlanmış bir proqramlaşdırma dilidir. Yüksək səviyyəli mənbə kodu oxunması asan bir sintaksis ehtiva edir, daha sonra aşağı səviyyəli bir dilə çevrilir və bu, müəyyən bir CPU tərəfindən tanına və idarə edilə bilər. Ən çox yayılmış proqramlaşdırma dilləri yüksək səviyyəli dillər hesab olunur.
+
+Ex:C,FRONTAN,PASCAL
+
+        #A general purpose diller
+
+A general purpose diller-Tətbiqetmə sahələrində geniş tətbiq olunan və müəyyən bir etki üçün ixtisaslaşdırılmış xüsusiyyətlərdən məhrum olan bir kompüter dilidir. Bu, müəyyən bir tətbiq sahəsi üçün ixtisaslaşmış bir domenə xas bir dildən (DSL) fərqli olaraq. Xətt həmişə kəskin olmur, çünki dil müəyyən bir domen üçün ixtisaslaşdırılmış xüsusiyyətlərə malik ola bilər, lakin daha geniş tətbiq oluna bilər və ya əksinə prinsipcə geniş tətbiqetmə qabiliyyətinə malik ola bilər, lakin praktikada əsasən müəyyən bir domen üçün istifadə olunur  
+
+ex:C, Java, PHP,Python
+
+CMD commands:
+dir-list directory content.
+cd-change directory
+cmd	start command prompt
+cls-clear screen
+mkdir-create a new directory
+rmdir / rd-delete directory
+
+
