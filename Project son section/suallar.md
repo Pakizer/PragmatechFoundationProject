@@ -204,3 +204,52 @@ mkdir-create a new directory
 rmdir / rd-delete directory
 
 
+          #Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+1.List is a collection which is ordered and changeable. Allows duplicate members.
+2.Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+3.Set is a collection which is unordered and unindexed. No duplicate members.
+4.Dictionary is a collection which is ordered* and changeable. No duplicate members.
+
+1.Lists:
+Lists are used to store multiple items in a single variable.
+List items are ordered, changeable, and allow duplicate values.
+List data-types- String, int and boolean.
+List type()- 'list'.
+        
+Methods
+append()-Adds an element at the end of the list.
+clear()-Removes all the elements from the list
+copy()-Returns a copy of the list
+count()-Returns the number of elements with the specified value
+extend()-Add the elements of a list (or any iterable), to the end of the current list
+index()-Returns the index of the first element with the specified value
+insert()-Adds an element at the specified position
+pop()-Removes the element at the specified position
+remove()-Removes the first item with the specified value
+reverse()-Reverses the order of the list
+sort()-Sorts the list
+
+2.Tuples 
+Tuples are used to store multiple items in a single variable.
+Tuple items are ordered, unchangeable, and allow duplicate values.
+To determine how many items a tuple has, use the-len()
+Tuple data-types-String, int and boolean data types.
+Tuple type()-'tuple'.
+
+Methods:
+count()-Returns the number of times a specified value occurs in a tuple,
+index()-Searches the tuple for a specified value and returns the position of where it was found.
+
+
+3.Dictionary Items.
+Dictionaries are used to store data values in key:value pairs.
+Dictionary items are ordered, changeable, and does not allow duplicates.
+Dictionary data-types-String, int, boolean, and list.
+
+
+
+
+
+
