@@ -1,43 +1,57 @@
-from typing import ClassVar
 from flask import Flask,render_template,request,redirect
+app = Flask(__name__)
+kitablar = []
+id=1
+class Kitab():
+    """
+    id
+    ad
+    yazar_adi
+    qiymet
+    """
+    def __init__(self,id,ad,yazar_adi,qiymet):
+        self.id=id
+        self.ad=ad
+        self.yazar_adi=yazar_adi
+        self.qiymet=qiymet
 
-
-app=Flask(__name__)
-students=[]
-class Student():
-    def __init__(self,_name,_surname,_seher,_email):
-        self.ad=_name
-        self.soyad=_surname
-        self.seher=_seher
-        self.email=_email
-
-
-indexData='index page data'
-aboutData={
-    'title':'About Page',
-    'content':'Lorem ipsum dolor sit amet',
-}
-contactData='contact page data'
-@app.route('/',methods=['GET','POST'])
+@app.route("/" , methods=['GET','POST'])
 def index():
-    if request.method=='POST':
-        _ad=request.form['ad']
-        _soyad=request.form['soyad']
-        _seher=request.form['seher']
-        _email=request.form['email']
-        user=Student(_ad,_soyad,_seher,_email)
-        students.append(user)
-        return redirect('/about')
-    return render_template('index.html',stud=students)
+
+    global id
+    if len(kitablar)==0:
+        id=1
+
+    if request.method=="POST":
+        kitab = Kitab(
+            id = id, 
+            ad=request.form['kitab_adi'],
+            yazar_adi=request.form['yazar_adi'],
+            qiymet=int(request.form['kitab_qiymeti'])
+            )
+        kitablar.append(kitab)
+        id+=1
+        return redirect("/")
+    return render_template("index.html",books = kitablar)
+@app.route("/update/<int:id>" ,methods=['GET','POST'])
+def updateKitab(id):
+    sechilmisKitab = None
+    for kitab in kitablar:
+        if kitab.id==id:
+            sechilmisKitab=kitab
+    if request.method=="POST":
+        sechilmisKitab.ad=request.form['kitab_adi']
+        sechilmisKitab.yazar_adi=request.form['yazar_adi']
+        sechilmisKitab.qiymet=int(request.form['kitab_qiymeti'])
+        return redirect("/")
+    return render_template("update.html",sechilmisKitab = sechilmisKitab)
+@app.route("/delete/<int:id>")
+def deleteKitab(id):
+    for kitab in kitablar:
+        if kitab.id==id:
+            kitablar.remove(kitab)
+    return redirect("/")
 
 
-@app.route('/about')
-def about():
-   return render_template('about.html',stud=students)
-
-@app.route('/contact')
-def contact():
-    return contactData
-
-if __name__=='__main__':
+if __name__=="__main__":
     app.run(debug=True)
