@@ -34,6 +34,26 @@ def addBook():
         return redirect("/")
     return render_template("add.html")
 
-
+@app.route("/update/<int:id>" ,methods =['GET','POST'])    
+def updateBook(id):
+    selectedBook = None
+    for book in books:
+        if book.id==id:
+            selectedBook=book #Fso  Görevim bitmiştir!  
+    if request.method=='POST':
+        selectedBook.name = request.form['book_name']
+        selectedBook.price = request.form['book_price']
+        selectedBook.author_name = request.form['author_name']
+        return redirect("/")    
+     
+    return render_template("update.html",selectedBook = selectedBook)
+@app.route("/delete/<int:id>")
+def deleteBook(id):
+    selectedBook = None
+    for book in books:
+        if book.id==id:
+            selectedBook=book
+    books.remove(selectedBook)
+    return redirect("/")
 if __name__=="__main__":
     app.run(debug=True)
