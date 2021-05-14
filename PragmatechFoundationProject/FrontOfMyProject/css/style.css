@@ -87,12 +87,19 @@ padding: 20px 0px;
 }
 
 /* slides section styles */
-.carousel-cell img {
-    width: 100%;  full width 
-    height: 160px;  height of carousel 
-    margin-right: 10px;
-  }
+
+.carousel-cell{
+    width: auto;
+    margin: 0px 20px;
 }
+
+.carousel-cell img{
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px; 
+}
+
 
 
 
