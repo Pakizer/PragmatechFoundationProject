@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
    <title>Home</title>
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/layout.css">
    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css">
-   <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css">
+   
 </head>
 <body>
    <div class="container">
@@ -40,27 +41,32 @@
          <!-- header navbar end -->
          
       </section>
+      
       <!-- Slider section start -->
-      <div class="container-slides">
-         <div class="carousel-cell">
-            <img src="/img/1.webp" alt="">
+      <div class="container " style="width: 90%;" >
+         <div class="carousel" data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>
             <div class="carousel-cell">
-               <img src="/img/slider2.webp" alt="">
+               <div class="carousel-cell-container">
+                  <h2 class="carousell-cell-title"> New Outerwear</h2>
+                  <a href="#" class="carousell-cell-link"></a>
+               </div>
+               <div class="carousel-cell-img">
+                  <img src="/img/84770f_8b58055267a2498ab2cba4b2386eb5f2_mv2.webp" alt="">
+               </div>              
             </div>
             <div class="carousel-cell">
-               <img src="/img/84770f_8b58055267a2498ab2cba4b2386eb5f2_mv2.webp" alt="">
+               <div class="carousel-cell-img">
+                  <img src="/img/slider2.webp" alt="">
+               </div>              
             </div>
-         </div>
-
-      <!-- <section id="slider">
-         <div class="slider-item">
-            <div class="slider-content">
-               <h1> New Outerwear <br> Collection</h1>
-               <button>Shop now</button>
+            <div class="carousel-cell">
+   
+               <div class="carousel-cell-img">
+                  <img src="/img/slider3.webp" alt="">
+               </div>   
             </div>
-         </div>
-
-      </section> -->
+          </div>
+      </div>
       <!-- Slider section end -->
 
       <!-- Start test-id -->     
