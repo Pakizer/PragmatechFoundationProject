@@ -114,62 +114,45 @@ padding: 20px 0px;
 }
 
 
-
-/* / #slider{
-    position: relative;
-    height: 700px;
-    
-}
-.slider-item{
-    margin: 38px 40px;
-    height: 100%;
-    background-image: url('../img/84770f_8b58055267a2498ab2cba4b2386eb5f2_mv2.webp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.slider-content{
-    width: 1350px;
-    margin: 0px auto;
-    text-align: center;
-    display: inline-block;
-}
-
-.slider-content h1{
-    line-height: 85px;
-    color: white;
+.carousel-cell-container h1{
+    margin: 0px;
+    top: 50%;
+    transform: translate(0px,-50%);
+    position: absolute;
     font-size: 5em;
-
-
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    line-height: 1em;
 
 }
 
-.slider-content button{
-    border-radius: 40px;
+.carousel-cell-container{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-cell-container button{
+    position: absolute;
+    top: 63%;
+    border-radius: 45px;
     outline: none;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1.1em;
     cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+
 
 }
 
-.slider-content button:hover{
+.carousel-cell-container button:hover{
     background-color: #a65f19;
     color: white;
 }
 
-
-.fb-icon{
-    position: absolute;
-    width: 30px;
-    height: 40px; 
-}*/
 
 
 /* .test-id styles */
