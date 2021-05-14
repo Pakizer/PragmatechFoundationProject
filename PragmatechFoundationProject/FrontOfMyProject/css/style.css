@@ -87,19 +87,12 @@ padding: 20px 0px;
 }
 
 /* slides section styles */
-
-.carousel-cell{
-    width: auto;
-    margin: 0px 20px;
-}
-
-.carousel-cell img{
+.carousel-cell img {
     width: 100%; 
-    height: auto;
-    object-fit: cover;
-    margin-right: 10px; 
-}
+    height: 160px; 
+    margin-right: 10px;
 
+}
 
 
 
@@ -336,7 +329,18 @@ padding: 20px 0px;
     cursor: pointer;
     
 }
-#footer .row .col-3 .footer-item ul li:hover{
+#footer .row .col-3 .footer-item ul li a{
+    list-style: none;
+    padding: 0px 5px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+    
+
+#footer .row .col-3 .footer-item ul li a:hover{
    color: #a65f19;
 }
 
