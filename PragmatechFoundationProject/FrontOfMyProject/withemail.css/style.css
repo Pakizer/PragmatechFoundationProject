@@ -1,0 +1,189 @@
+ody{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Header bolmesi  */
+
+.header-container{
+    
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col-12 .close button {
+    position: fixed;
+    touch-action: manipulation;
+    top: 60px;
+    right: 60px;
+    background: none;
+    z-index: 3;
+    border: none;
+    cursor: pointer;
+}
+
+
+.col-12 button i{
+    width: 25px;
+    height: 25px;
+    stroke-width: 15;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+
+.login-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+}
+.col-12 h1{
+    color: rgba(var(--color_15),var(--alpha-color_15,1));
+    font: var(--ttlFnt,var(--font_2));
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.col-12{
+    text-align: center;
+    font: var(--fnt,var(--font_8));
+    font-size: 18px;
+}
+
+
+
+.login button{
+    color:#a65f19;
+    /* border-bottom: 1px solid #0198ff; */
+    float: none;
+    border: none;
+    text-align: left;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: white;
+}
+
+.signinwith {
+    padding: 40px 10px;
+}
+
+
+.signinwith button{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+    color: white;
+    
+
+}
+.signinwith label{
+   
+    --color_14: 153,153,151;
+    --txtlbl: var(--color_14);
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 16px;
+    font: var(--fntlbl,var(--font_8));
+    color: rgb(var(--txtlbl,var(--color_15)));
+    word-break: break-word;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: var(--labelMarginBottom);
+    padding: 0px;
+   
+    direction: var(--dir);
+    
+}
+
+
+.or{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto 40px;
+    height: 11px;
+    border-bottom: 1px solid;
+}
+
+.signinwith .ABx0f {
+    font-size: 10px;
+
+    margin: 0;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    position: relative;
+}
+
+
+
+.or span{
+    background-color: white;
+    font-size: 16px;
+    padding: 0 13px;
+}
+
+.loginbuttons button{
+    cursor: pointer;
+    width: auto; 
+    margin: 2px;
+    background-color: transparent;
+}
+
+.email button{
+    background-color: #a65f19;
+    color:white;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+
+    
+}
+
+.readme{
+    margin-right: 5px;
+
+}
+
+
+.readme input{
+    margin: 5px 5px;
+    width: 12px;
+    cursor: pointer;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+.readme button{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+}
