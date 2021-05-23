@@ -215,7 +215,7 @@ background-color: white;
     justify-content: center;
 }
 
-#test-id .item .title h1{
+#test-id .item .title a{
     margin: 0px;
     top: 50%;
     transform: translate(0px,-50%);
@@ -223,9 +223,10 @@ background-color: white;
     font-size: 5em;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
-#test-id .item .title h1:hover{
+#test-id .item .title a:hover{
     color: #a65f19;
 }
 

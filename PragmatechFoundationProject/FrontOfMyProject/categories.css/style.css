@@ -7,14 +7,14 @@ body{
 /* Header bolmesi  */
 
 .header-container{
-    
     margin: 0px auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.container{
+.container {
     width: 90%;
     margin: 0 auto;
 }
@@ -27,22 +27,44 @@ button{
     cursor: pointer;
 }
 
-.navbar-logo img{
-    margin: 0px 40px;
-    height: 100px;
+/* header navbar bolmesi */
+
+
+.header-navbar{
+/* padding: 8px 0px; */
+position: fixed;
+z-index: 1;
+width: 100%;
+background-color: white;
+}
+
+
+
+/* .navbar-logo */
+
+.navbar_logo #logo svg{
+   height: 25px;
+   cursor: pointer;
+   
 
 }
 
-.navbar-nav ul{
-    margin: 40px ;
-    padding: 0px;
-    display: flex;
-
+.navbar_logo #logo svg [data-color="1"]{
+    fill: #222A31;
+   
+}
+.navbar_logo #logo p{
+    margin: 0px;
+}
+.navbar_logo #logo a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 40px;
+    cursor: pointer;
+   
 }
 
-.navbar-nav ul li{
-    list-style: none;
-}
+
 
 .navbar-nav ul li button{
     overflow: hidden;
@@ -53,6 +75,19 @@ button{
     outline: none;
     background-color: white;
     font-size: 20px;
+}
+
+
+.navbar-nav ul{
+    margin: 40px;
+    padding: 0px;
+    display: flex;
+    position: sticky;
+
+}
+
+.navbar-nav ul li{
+    list-style:none ;
 }
 
 .navbar-nav ul li a{
@@ -70,6 +105,10 @@ button{
 .navbar-nav li a{
     text-decoration: none;
     color: black;
+}
+
+.header-icon i{
+    margin: 0px 5px;
 }
 
 .store-view{
@@ -99,6 +138,9 @@ button{
     color: rgb(48, 46, 46);
 }
 
+.store-view .container .row {
+    margin-top: 0px;
+}
 
 .store-view .container .row .col-3{
     padding: 50px;

@@ -4,19 +4,20 @@ body{
     font-size: 15px;
 }
 
+/* Header bolmesi  */
+
 .header-container{
-    
     margin: 0px auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.container{
-    width: 90%;
+.container {
+    
     margin: 0 auto;
 }
-
 
 button{
     border-radius: 40px;
@@ -26,22 +27,47 @@ button{
     cursor: pointer;
 }
 
-.navbar-logo img{
-    margin: 0px 40px;
-    height: 100px;
+/* header navbar bolmesi */
+
+
+.header-navbar{
+ padding: 8px 0px; 
+position: fixed;
+z-index: 1;
+width: 100%;
+background-color: white;
+}
+
+
+
+
+
+
+/* .navbar-logo */
+
+.navbar_logo #logo svg{
+   height: 25px;
+   cursor: pointer;
+   
 
 }
 
-.navbar-nav ul{
-    margin: 40px ;
-    padding: 0px;
-    display: flex;
-
+.navbar_logo #logo svg [data-color="1"]{
+    fill: #222A31;
+   
+}
+.navbar_logo #logo p{
+    margin: 0px;
+}
+.navbar_logo #logo a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 40px;
+    cursor: pointer;
+   
 }
 
-.navbar-nav ul li{
-    list-style:none ;
-}
+
 
 .navbar-nav ul li button{
     overflow: hidden;
@@ -52,6 +78,19 @@ button{
     outline: none;
     background-color: white;
     font-size: 20px;
+}
+
+
+.navbar-nav ul{
+    margin: 40px;
+    padding: 0px;
+    display: flex;
+    position: sticky;
+
+}
+
+.navbar-nav ul li{
+    list-style:none ;
 }
 
 .navbar-nav ul li a{
@@ -71,6 +110,13 @@ button{
     color: black;
 }
 
+.header-icon i{
+    margin: 0px 5px;
+}
+
+#about .row{
+    margin-top: 0px;
+}
 #about .row .col-6 h1{
     color: white;
     text-align: left;
@@ -89,7 +135,7 @@ button{
 
 #about .row .col-6{
     background-color: rgba(34, 42, 49, 1);
-    padding: 40px 50px;
+    padding: 100px 50px;
 }    
 
 /* footer style */
