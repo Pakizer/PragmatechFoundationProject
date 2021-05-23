@@ -11,6 +11,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .container {
@@ -27,21 +28,46 @@ button{
 }
 
 /* header navbar bolmesi */
+
+
 .header-navbar{
-/* border: 1px solid red; */
-padding: 20px 0px;
+/* padding: 8px 0px; */
+position: fixed;
+z-index: 1;
+width: 100%;
+background-color: white;
 }
 
 
-/* 
-.navbar-logo{
-} */
 
-.navbar-logo img{
-    margin: 0px 40px;
-    height: 100px;
+
+
+
+/* .navbar-logo */
+
+.navbar_logo #logo svg{
+   height: 25px;
+   cursor: pointer;
+   
 
 }
+
+.navbar_logo #logo svg [data-color="1"]{
+    fill: #222A31;
+   
+}
+.navbar_logo #logo p{
+    margin: 0px;
+}
+.navbar_logo #logo a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 40px;
+    cursor: pointer;
+   
+}
+
+
 
 .navbar-nav ul li button{
     overflow: hidden;
@@ -54,10 +80,12 @@ padding: 20px 0px;
     font-size: 20px;
 }
 
+
 .navbar-nav ul{
     margin: 40px;
     padding: 0px;
     display: flex;
+    position: sticky;
 
 }
 
