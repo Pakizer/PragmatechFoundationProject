@@ -168,6 +168,7 @@ background-color: white;
 
 /* footer style */
 
+
 #footer .row .col-3 .footer-item ul li{
     list-style: none;
     padding: 7px 12px;
@@ -189,11 +190,25 @@ background-color: white;
 #footer .row .col-3 .footer-item ul li a:hover{
    color: #a65f19;
 }
- 
+
+
 
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
     cursor: pointer;
+    
+}
+
+.fa-facebook-f:before{
+    color: black;
+}
+
+.fa-twitter:before{
+    color: black;
+}
+
+.fa-instagram:before{
+    color: black;
 }
 
 
@@ -210,4 +225,3 @@ background-color: white;
     padding: 15px 20px;
     cursor: pointer;
 }
-
