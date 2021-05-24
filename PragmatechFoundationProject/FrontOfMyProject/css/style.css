@@ -27,6 +27,46 @@ button{
     cursor: pointer;
 }
 
+
+/* socialicons style */
+
+.socialicons {
+justify-self: end;
+margin-right: 29px;
+align-self: center;
+position: fixed;
+z-index: 5; 
+margin:-2px -10px ;
+margin-top: 30%;
+
+
+}
+
+.socialicons ul {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    list-style: none;
+}
+.socialicons ul li{
+    margin: 0 0 27px 0;
+    height:26px ;
+}
+
+.socialicons ul li a{
+vertical-align: baseline;
+justify-self: end;
+margin-right: 29px;
+align-self: center;
+position: absolute;
+width: 26px;
+height: 132px;
+
+}
+
+
+
 /* header navbar bolmesi */
 
 
@@ -40,25 +80,22 @@ background-color: white;
 
 
 
-
-
-
 /* .navbar-logo */
 
 .navbar_logo #logo svg{
    height: 25px;
    cursor: pointer;
-   
-
 }
 
 .navbar_logo #logo svg [data-color="1"]{
     fill: #222A31;
    
 }
+
 .navbar_logo #logo p{
     margin: 0px;
 }
+
 .navbar_logo #logo a{
     text-decoration: none;
     color: black;
@@ -388,6 +425,19 @@ background-color: white;
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
     cursor: pointer;
+    
+}
+
+.fa-facebook-f:before{
+    color: black;
+}
+
+.fa-twitter:before{
+    color: black;
+}
+
+.fa-instagram:before{
+    color: black;
 }
 
 

@@ -140,10 +140,11 @@ background-color: white;
 
 .store-view .container .row {
     margin-top: 0px;
+   
 }
 
 .store-view .container .row .col-3{
-    padding: 50px;
+    padding:  50px;
 }
 
 .store-view .container .row .col-3 .store-item img{
