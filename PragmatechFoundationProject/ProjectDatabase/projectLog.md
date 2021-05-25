@@ -1,5 +1,3 @@
-home,store,about,blog,pointsofsale,login sehifelerinin html css bitib,responsivlik hele bitmeyib.
-
 js lik hisseler
 1.navbar-nav hissesinin sehifenon asagi hereketi zamani hereketi
 2..navbar-nav daki cart bolmesi
