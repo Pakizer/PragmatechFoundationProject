@@ -15,7 +15,6 @@ body{
 }
 
 .container {
-    
     margin: 0 auto;
 }
 
@@ -31,7 +30,7 @@ button{
 
 
 .header-navbar{
- padding: 8px 0px; 
+padding: 8px 0px; 
 position: fixed;
 z-index: 1;
 width: 100%;
