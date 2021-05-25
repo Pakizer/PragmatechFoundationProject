@@ -43,3 +43,5 @@ def advantages():
         db.session.commit()
         return redirect("/admin/advantages")
     return render_template("admin/advantages.html")
+
+    

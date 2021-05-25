@@ -279,14 +279,17 @@ background-color: white;
 
 #product-view .product-item{
     margin: 0px 30px;
-    border: 5px solid white;
+    border: 6px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #product-view .product-item .title h1{
-    padding: 15px 91px 2px;
+    width: 100px;
+    
+   
 }
 
 #product-view .product-item img{
@@ -299,14 +302,18 @@ background-color: white;
     text-align: center;
     font-size: 10px;
 }
+
 #product-view .container .row .col-3 .title{
     background-color: white;
     font-size: 10px;
+    padding: 0px 100px;
 }
+
 #product-view .container .row .col-12{
     text-align: center;
     margin-top: 30px 0px;
 }
+
 #product-view .container .row .col-12 .product-item-btn button{
     font-size: 1.5em;
     border: none;
@@ -424,12 +431,27 @@ background-color: white;
    color: #a65f19;
 }
 
+#footer .row .col-3 .footer-item ul p span a {
+    line-height:1.1em;
+    text-decoration: none;
+    font-size:15px;
+    color:black;
+}
 
 
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
     cursor: pointer;
     
+    
+}
+
+
+
+#footer .row .col-3 .footer-social-icons a{
+    margin:  0 12px 0 0;
+    
+    text-decoration: none;
 }
 
 .fa-facebook-f:before{
@@ -438,6 +460,7 @@ background-color: white;
 
 .fa-twitter:before{
     color: black;
+   
 }
 
 .fa-instagram:before{
