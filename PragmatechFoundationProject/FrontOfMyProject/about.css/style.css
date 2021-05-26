@@ -139,7 +139,6 @@ background-color: white;
 
 /* footer style */
 
-
 #footer .row .col-3 .footer-item ul li{
     list-style: none;
     padding: 7px 12px;
@@ -162,12 +161,27 @@ background-color: white;
    color: #a65f19;
 }
 
+#footer .row .col-3 .footer-item ul p span a {
+    line-height:1.1em;
+    text-decoration: none;
+    font-size:15px;
+    color:black;
+}
 
 
 #footer .row .col-3 .footer-social-icons{
     padding: 0px 54px;
     cursor: pointer;
     
+    
+}
+
+
+
+#footer .row .col-3 .footer-social-icons a{
+    margin:  0 12px 0 0;
+    
+    text-decoration: none;
 }
 
 .fa-facebook-f:before{
@@ -176,6 +190,7 @@ background-color: white;
 
 .fa-twitter:before{
     color: black;
+   
 }
 
 .fa-instagram:before{
