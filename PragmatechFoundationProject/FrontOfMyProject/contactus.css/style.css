@@ -64,10 +64,11 @@ button{
 .contactus h1{
     margin-top: 0;
     font-weight: 200;
+    color: gray;
 
 }
 .txtb{
-    border:1px solid gray;
+    border:1px solid #a65f19;
     margin: 8px 0px;
     padding: 12px 18px;
     border-radius: 8px;
@@ -77,7 +78,7 @@ button{
 .txtb label{
     display: block;
     text-align: left;
-    color: black;
+    color: #a65f19;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -93,7 +94,7 @@ button{
 
 .btn{
     display: inline-block;
-    background-color: grey;
+    background-color: #a65f19;
     padding: 14px 0;
     color: white;
     text-transform: uppercase;
