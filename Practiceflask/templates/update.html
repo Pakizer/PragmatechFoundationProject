@@ -1,0 +1,8 @@
+{% extends 'layout.html' %} {% block content %}
+<h3 class="my-2">İstifadəçi məlumatlarını dəyiş</h3>
+<form action="/update/{{user.id}}" method='POST'>
+    <input type="text" class="form-control my-2" name='f_name' placeholder="Your Name" value='{{user.f_name}}'>
+    <input type="text" class="form-control my-2" name='l_name' placeholder="Your Surname" value='{{user.l_name}}'>
+    <input type="submit" class="btn btn-primary px-2" value='Yenilə'>
+</form>
+{% endblock %}

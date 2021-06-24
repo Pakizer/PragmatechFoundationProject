@@ -1,0 +1,8 @@
+{% extends 'layout.html' %} {% block content %}
+<h3 class="my-2">Yeni istifadeci elave et</h3>
+<form action="/add" method='POST'>
+    <input type="text" class="form-control my-2" name='f_name' placeholder="Your Name">
+    <input type="text" class="form-control my-2" name='l_name' placeholder="Your Surname">
+    <input type="submit" class="btn btn-primary px-2" value='Əlavə Et'>
+</form>
+{% endblock %}
